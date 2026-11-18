@@ -4,7 +4,7 @@
 
 ## 开始练习
 
-仓库启用 GitHub Pages 后，可通过 https://monkeyshirley.github.io/music-reading-practice/ 使用。
+在线练习：[打开五线谱识音](https://monkeyshirley.github.io/music-reading-practice/)。
 
 1. 建议用 Safari、Chrome 或 Edge 等常用浏览器打开，尽量固定使用同一台设备、同一个浏览器。
 2. 看谱后依次选择音名和音组，选齐后提交答案。页面会显示反馈、琴键位置，并可播放合成音。
@@ -35,7 +35,7 @@
 ## 当前版本与限制
 
 - 版本：2026-11-16.1。
-- 本地验证已通过 26 项规则检查及 7 项真实浏览器存储检查；尚待正式网址和真实手机体验复核。
+- 本地验证已通过 26 项规则检查及 7 项真实浏览器存储检查；正式网址已验证页面打开、作答反馈和刷新后记录恢复（2026-11-18 复核）。真实 iPhone／Android 的触控与扬声器体验仍待实际试用。
 - 音频使用合成音。首次播放可能需要用户点击后才有声音。
 - 尚未提供完整离线缓存、云同步及后续加线扩展课程。
 
@@ -43,6 +43,8 @@
 
 仓库根目录包含可直接运行的 `index.html`，无需安装依赖或构建。
 
-在 GitHub 仓库的 **Settings → Pages** 中选择 **Deploy from a branch**，选择 **main** 分支与 **/(root)**，保存后等待部署完成。仓库创建或代码上传本身并不等于网站已上线。
+本仓库已启用 GitHub Pages，发布来源为 **main** 分支的 **/(root)**。后续提交到 main 后，GitHub 自动重新部署；可在仓库的 Actions 中查看发布结果。
+
+若自行复制部署，在 **Settings → Pages** 中选择 **Deploy from a branch → main → /(root)** 并保存。
 
 部署参考：[GitHub Pages 官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)。
